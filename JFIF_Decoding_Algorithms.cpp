@@ -16,7 +16,7 @@ std::array<std::array<unsigned char, 8>, 8> do_InverseDCT(std::vector<std::vecto
 				IDCT_matrix[i][j] = 0.0;
 		}
 	}
-	c1 = 0.7071; // also used as a temporary double variable for clamping algorithm
+	c1 = 0.7071;
 	c2 = 0.7071;
 	for (i = 0; i < 8; ++i){
 		for (j = 0; j<8; ++j){
