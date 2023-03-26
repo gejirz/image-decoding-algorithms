@@ -6,10 +6,10 @@ Scripts for decoding an image. Used in my college project PixPalette.
 
 ### Install it via pip:
 ```python
-pip install colorpalette-master
+pip install image-decoding-algorithms
 ```
 ### Install it manually:
-- Copy the folder `cpmaster` into Lib\side-packages of your python enviroment.
+- Copy the folder `IDA` into Lib\side-packages of your python enviroment.
 - Install additional packages with:
 ```python
 pip install scikit-image==0.19.3
@@ -17,19 +17,15 @@ pip install scikit-image==0.19.3
 ```python
 pip install numpy==1.21.6
 ```
-```python
-pip install pillow==9.4.0
-```
-### After, import it into the script using `import cpmaster`.
+### After, import it into the script using `import IDA *` (* is for importing all the methods).
 
 ## Compiling requirements:
 - Scikit-image (version '0.19.3' or newer)
 - Numpy (version '1.21.6' or newer)
-- Pillow (version '9.4.0' or newer)
 
 ## Running requirements:
 - Python 3.7.7 or newer (code actually uses some deprecated syntax in newer versions of Python, so not sure about the last part)
 
 ## Using the package:
-- Check the `___main___.py` file for my brief documentation on methods
+- If you want to dive into the JFIF decoding algorithm, you can research `JFIFDecoder.py` file.
 - Write me an email, if there are any questions left - superavb222@gmail.com
