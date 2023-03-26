@@ -2,6 +2,7 @@
 Scripts for decoding an image. Used in my college project PixPalette.
 ## What did I do:
 - Wrote my decoder for .jpeg (JFIF) files in baseline encoding mode.
+- Wrote a custom module for IDCT (Inverse Discrete Cosine Transform) function in c++.
 - For the other use cases I used a library "skimage", which has much more variety of decoding algorithms.
 
 ### Install it via pip:
